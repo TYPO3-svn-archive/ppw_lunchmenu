@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+	  <T3DataStructure>
+		<sheets>
+		  <sDEF>
+			<ROOT>
+			  <TCEforms>
+				<sheetTitle>LLL:EXT:ppw_lunchmenu/locallang_tca.php:tx_ppwlunchmenu.flexform.generalOption</sheetTitle>
+			  </TCEforms>
+			  <type>array</type>
+			  <el>
+				<what_to_display>
+				  <TCEforms>
+				  <exclude>1</exclude>
+					<label>LLL:EXT:ppw_lunchmenu/locallang_tca.php:tx_ppwlunchmenu.flexform.display</label>
+					<config>
+					  <type>select</type>
+					  <items type="array">
+						<numIndex index="0" type="array">
+						  <numIndex index="0">LLL:EXT:ppw_lunchmenu/locallang_tca.php:tx_ppwlunchmenu.flexform.singleView</numIndex>
+						  <numIndex index="1">SINGLE</numIndex>
+						</numIndex>
+						<numIndex index="1" type="array">
+						  <numIndex index="0">LLL:EXT:ppw_lunchmenu/locallang_tca.php:tx_ppwlunchmenu.flexform.weekView</numIndex>
+						  <numIndex index="1">WEEK</numIndex>
+						</numIndex>
+						<numIndex index="2" type="array">
+						  <numIndex index="0">LLL:EXT:ppw_lunchmenu/locallang_tca.php:tx_ppwlunchmenu.flexform.PDFView</numIndex>
+						  <numIndex index="1">PDF</numIndex>
+						</numIndex>
+					  </items>   
+					  <maxitems>1</maxitems>
+					  <size>1</size>
+					</config>
+				  </TCEforms>
+				</what_to_display>
+				<weekPID>
+					<TCEforms>
+					  <label>LLL:EXT:ppw_lunchmenu/locallang_tca.php:tx_ppwlunchmenu.flexform.weekPID</label>
+					  <config>
+						<type>group</type>
+						<internal_type>db</internal_type>
+						<allowed>pages</allowed>
+						<size>1</size>
+						<maxitems>1</maxitems>
+						<show_thumbs>1</show_thumbs>
+					</config>
+					</TCEforms>
+				</weekPID>
+				<singlePID>
+					<TCEforms>
+					  <label>LLL:EXT:ppw_lunchmenu/locallang_tca.php:tx_ppwlunchmenu.flexform.singlePID</label>
+					  <config>
+						<type>group</type>
+						<internal_type>db</internal_type>
+						<allowed>pages</allowed>
+						<size>1</size>
+						<maxitems>1</maxitems>
+						<show_thumbs>1</show_thumbs>
+					</config>
+					</TCEforms>
+				</singlePID>
+                <cal>
+			        <TCEforms>
+			          <label>LLL:EXT:ppw_lunchmenu/locallang_tca.php:tx_ppwlunchmenu.flexform.showCal</label>
+			          <config>
+				        <type>check</type>
+				        <default>1</default>
+			          </config>
+			        </TCEforms>
+		          </cal>
+				<pdfPID>
+					<TCEforms>
+					  <label>LLL:EXT:ppw_lunchmenu/locallang_tca.php:tx_ppwlunchmenu.flexform.pdfPID</label>
+					  <config>
+						<type>group</type>
+						<internal_type>db</internal_type>
+						<allowed>pages</allowed>
+						<size>1</size>
+						<maxitems>1</maxitems>
+						<show_thumbs>1</show_thumbs>
+					</config>
+					</TCEforms>
+				</pdfPID>
+			  </el>
+			</ROOT>
+		  </sDEF>
+		  
+		  
+		</sheets>
+	  </T3DataStructure> 

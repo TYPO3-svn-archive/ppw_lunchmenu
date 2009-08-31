@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;web_txppwlunchmenuM1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="title">ppw_lunchmenu</label>
+			<label index="function1">meals</label>
+			<label index="function2">installation</label>
+			<label index="function3">menu</label>
+			<label index="function4">meal types</label>
+			<label index="function5">holiday management</label>
+            
+			<label index="menu.Fares">meals</label>
+			<label index="menu.CreateDraft">new meal</label>
+			<label index="menu.BillOfFare">menu</label>
+			<label index="menu.Preview">preview</label>
+			<label index="menu.install">installation</label>
+			<label index="menu.Types">meal types</label>
+			<label index="menu.Holiday">holiday management</label>
+			
+			<label index="search.Sword">search term</label>
+			<label index="search.Submit">search</label>
+			
+			<label index="th.ID">DB-ID</label>
+			<label index="th.Title">title of meal</label>
+			<label index="th.configTitle">title of configuration</label>
+			<label index="th.typesTitle">title of meal type</label>
+			<label index="th.holidayTitle">closing cause</label>
+			<label index="th.crdate">created on</label>
+			<label index="th.time">created at</label>
+			<label index="th.option">pptions</label>
+			<label index="th.Time">Time</label>
+			<label index="th.Path">path</label>
+			<label index="th.Desc">Short Description</label>
+            <label index="th.accept">Select</label>
+			
+			<label index="td.Time">o’clock</label>
+            
+			<label index="sort.down">sort descending</label>
+			<label index="sort.up">sort ascending</label>
+            
+			<label index="option.Hide">Hide meal</label>
+			<label index="option.Unhide">display meal</label>
+			<label index="option.Edit">edit meal</label>
+			<label index="option.Delete">delete meal</label>
+			<label index="option.down">Move down</label>
+			
+			<label index="config.PID">Name of sysfolder</label>
+			<label index="config.Submit">add new configuration</label>
+			
+			<label index="holiday.PID">Name of sysfolder</label>
+			<label index="holiday.Submit">Add new entry</label>
+			
+			
+			<label index="type.Submit">add new meal type</label>
+			
+			<label index="error.NoEntry">You haven't entered a valid sysfolder for your configuration</label>
+			<label index="error.NoDrafts">You haven’t added a meal yet</label>
+			<label index="error.NoResults">No matching meal</label>
+            <label index="error.NoHoliday">Es wurden noch keine Feiertage angelegt. Wenn Sie einen Sysordner für die Feiertage angelegt haben, dann wählen Sie hier den entsprechenden Ordner aus und klicken anschließend auf "Neuen Eintrag hinzufügen"</label> 
+			
+			
+			<label index="error.NoConfig">Es wurde noch keine Konfiguration vorgenommen. Wenn Sie einen Sysordner für die Konfigurationseinstellungen angelegt haben, dann wählen Sie hier den entsprechenden Ordner aus und klicken anschließend auf "Neue Konfiguration anlegen"</label>
+			<label index="error.NoType">Es wurde noch kein Speisetyp angelegt. Klicken Sie bitte auf "Neuen Speisetyp anlegen"</label>
+			
+			<label index="success.SaveDraft">Ihre Vorlage wurde erfolgreich gespeichert. Sie können nun eine neue Vorlage erstellen</label>
+			
+			<label index="new.Submit">New meal</label>
+			
+			<label index="bill.TH">Day / meal</label>
+			<label index="bill.TH2">Feiertage</label>
+            <label index="bill.pleaseSelect">---Please select ---</label>
+			<label index="bill.actWeek">KW</label>
+			<label index="bill.Back">back</label>
+			<label index="bill.backWeekTitle">one week back</label>
+			<label index="bill.Forward">more</label>
+			<label index="bill.forwardWeekTitle">proceed one week</label>
+			<label index="bill.newTitle">click here to add a new meal to this day</label>
+			<label index="bill.editTitle">click here to edit recent data</label>
+			<label index="bill.hideTitle">click here to hide recent data</label>
+			<label index="bill.unhideTitle">click here to display recent data</label>
+			<label index="bill.deleteTitle">click here to delete recent data</label>
+			<label index="bill.Close">close without saving</label>
+			<label index="bill.SaveClose">save and close</label>
+			<label index="bill.Save">save</label>
+			<label index="bill.Hide">hide:</label>
+			<label index="bill.Title">change title of meal</label>
+			<label index="bill.German">Enter german description</label>
+			<label index="bill.English">Enter english description</label>
+			<label index="bill.Price">Enter price for the menu</label>
+            <label index="bill.foodPrice">Price: </label>
+            <label index="bill.foodDesc">Desc.: </label>
+			<label index="bill.Save">save</label>
+			<label index="bill.closedDay">casino is closed on this day</label>
+			<label index="bill.closed">closed</label>
+			<label index="bill.Step2">Entry with draft</label>
+			<label index="bill.noDraft">Entry without draft</label>
+			<label index="bill.reset">Reset</label>
+			<label index="bill.selectDate">Select a date:</label>
+			<label index="bill.selectDateSubmit">Switch to date</label>
+            <label index="bill.confirm">Do you really want to delete this entry?</label>
+			
+			<label index="day.Sunday">Sunday</label>
+			<label index="day.Monday">Monday</label>
+			<label index="day.Tuesday">Tuesday</label>
+			<label index="day.Wednesday">Wednesday</label>
+			<label index="day.Thursday">Thursday</label>
+			<label index="day.Friday">Friday</label>
+			<label index="day.Saturday">Saturday</label>
+
+		</languageKey>
+		
+		
+		<languageKey index="de" type="array">
+			<label index="title">ppw_lunchmenu</label>
+			<label index="function1">Speisevorlagen</label>
+			<label index="function2">Installation</label>
+			<label index="function3">Speiseplan</label>
+			<label index="function4">Speisetypen</label>
+			<label index="function5">Feiertagsverwaltung</label>
+			
+			<label index="menu.Fares">Speisevorlagen</label>
+			<label index="menu.CreateDraft">Neue Vorlage</label>
+			<label index="menu.BillOfFare">Speiseplan</label>
+			<label index="menu.Preview">Vorschau</label>
+			<label index="menu.install">Installation</label>
+			<label index="menu.Types">Speisetypen</label>
+			<label index="menu.Holiday">Feiertagsverwaltung</label>
+			
+			<label index="search.Sword">Vorlagensuche</label>
+			<label index="search.Submit">Suchen</label>
+			
+			<label index="th.ID">DB-ID</label>
+			<label index="th.Title">Titel der Speisenvorlage</label>
+			<label index="th.configTitle">Titel der Konfiguration</label>
+			<label index="th.typesTitle">Titel des Speisetyps</label>
+			<label index="th.holidayTitle">Grund für die Schließung</label>
+			<label index="th.crdate">erstellt am</label>
+			<label index="th.time">erstellt um</label>
+			<label index="th.option">Optionen</label>
+			<label index="th.Time">Zeitpunkt</label>
+			<label index="th.Path">Pfad</label>
+			<label index="th.Desc">Kurzbeschreibung</label>
+            <label index="th.accept">auswählen</label>
+			
+			<label index="td.Time">Uhr</label>
+			
+			<label index="sort.down">Absteigend sortieren</label>
+			<label index="sort.up">Aufsteigend sortieren</label>
+			
+			<label index="option.Hide">Diese Vorlage verstecken</label>
+			<label index="option.Unhide">Diese Vorlage einblenden</label>
+			<label index="option.Edit">Diese Vorlage bearbeiten</label>
+			<label index="option.Delete">Diese Vorlage löschen</label>
+			<label index="option.down">Nach unten verschieben</label>
+			
+			<label index="config.PID">Name des Sysordner</label>
+			<label index="config.Submit">Neue Konfiguration anlegen</label>
+			
+			<label index="holiday.PID">Name des Sysordner</label>
+			<label index="holiday.Submit">Neuen Eintrag hinzufügen</label>
+			
+			<label index="type.Submit">Neuen Speisetyp anlegen</label>
+			
+			<label index="error.NoEntry">Sie haben keinen gültigen Sysordner für die Konfiguration gewählt</label>
+			<label index="error.NoDrafts">Es wurden noch keine Vorlagen erstellt</label>
+			<label index="error.NoResults">Es wurden keine passende Vorlage gefunden</label>
+            <label index="error.NoHoliday">Es wurden noch keine Feiertage angelegt. Wenn Sie einen Sysordner für die Feiertage angelegt haben, dann wählen Sie hier den entsprechenden Ordner aus und klicken anschließend auf "Neuen Eintrag hinzufügen"</label>
+			<label index="error.NoConfig">Es wurde noch keine Konfiguration vorgenommen. Wenn Sie einen Sysordner für die Konfigurationseinstellungen angelegt haben, dann wählen Sie hier den entsprechenden Ordner aus und klicken anschließend auf "Neue Konfiguration anlegen"</label>
+			<label index="error.NoType">Es wurde noch kein Speisetyp angelegt. Klicken Sie bitte auf "Neuen Speisetyp anlegen"</label>
+			
+			<label index="success.SaveDraft">Ihre Vorlage wurde erfolgreich gespeichert. Sie können nun eine neue Vorlage erstellen</label>
+			
+			<label index="new.Submit">Neue Vorlage erstellen</label>
+			
+			<label index="bill.TH">Tage / Speise</label>
+            <label index="bill.TH2">Feiertage</label>
+            <label index="bill.pleaseSelect">---Bitte wählen ---</label>
+			<label index="bill.actWeek">KW</label>
+			<label index="bill.Back">zurück</label>
+			<label index="bill.backWeekTitle">Eine Woche zurück</label>
+			<label index="bill.Forward">weiter</label>
+			<label index="bill.forwardWeekTitle">Eine Woche weiter</label>
+			<label index="bill.newTitle">Klicken Sie hier um eine neue Speise an diesem Tag anzulegen</label>
+			<label index="bill.editTitle">Klicken Sie hier um den aktuellen Eintrag zu bearbeiten</label>
+			<label index="bill.hideTitle">Klicken Sie hier um den aktuellen Eintrag zu verstecken</label>
+			<label index="bill.unhideTitle">Klicken Sie hier um den aktuellen Eintrag einzublenden</label>
+			<label index="bill.deleteTitle">Klicken Sie hier um den aktuellen Eintrag zu löschen</label>
+			<label index="bill.Close">Schließen ohne Speichern</label>
+			<label index="bill.SaveClose">Speichern und Schließen</label>
+			<label index="bill.Save">Speichern</label>
+			<label index="bill.Hide">Verstecken:</label>
+			<label index="bill.Title">Ändern Sie hier den Titel der Speisenvorlage</label>
+			<label index="bill.German">Geben Sie hier die deutsche Beschreibung ein</label>
+			<label index="bill.English">Geben Sie hier die englische Beschreibung ein</label>
+			<label index="bill.Price">Geben Sie hier den Preis für das Menü ein</label>
+            <label index="bill.foodPrice">Preise: </label>
+            <label index="bill.foodDesc">Besch.: </label>
+			<label index="bill.Save">Speichern</label>
+			<label index="bill.closedDay">Die Kantine ist an diesem Tag geschlossen</label>
+			<label index="bill.closed">Kantine geschlossen</label>
+			<label index="bill.Step2">Eintrag von Vorlage</label>
+			<label index="bill.noDraft">Eintrag ohne Vorlage</label>
+			<label index="bill.reset">Zurücksetzen</label>
+			<label index="bill.selectDate">Hier einen Tag auswählen:</label>
+			<label index="bill.selectDateSubmit">zu Tag wechseln</label>
+            <label index="bill.confirm">Wollen Sie diesen Eintrag wirklich löschen?</label>
+			
+			<label index="day.Sunday">Sonntag</label>
+			<label index="day.Monday">Montag</label>
+			<label index="day.Tuesday">Dienstag</label>
+			<label index="day.Wednesday">Mittwoch</label>
+			<label index="day.Thursday">Donnerstag</label>
+			<label index="day.Friday">Freitag</label>
+			<label index="day.Saturday">Samstag</label>
+
+		</languageKey>
+	</data>
+</T3locallang>

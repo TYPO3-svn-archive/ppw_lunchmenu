@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'ppw_lunchmenu'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_ppwlunchmenu_fare">Add a new meal</label>
+			<label index="tx_ppwlunchmenu_fare.fare_title">Title of meal</label>
+			<label index="tx_ppwlunchmenu_fare.fare_desc_german">Enter german description of meal</label>
+			<label index="tx_ppwlunchmenu_fare.fare_desc_english">Enter english description of meal</label>
+			<label index="tx_ppwlunchmenu_fare.fare_image">Choose a picture for this meal</label>
+			<label index="tx_ppwlunchmenu_fare.fare_translated">Has this meal been translated yet?</label>
+			<label index="tx_ppwlunchmenu_config">New configuration</label>
+			<label index="tx_ppwlunchmenu_config.config_title">Titel of configuration</label>
+			<label index="tx_ppwlunchmenu_config.config_pid">Data is being saved in this page</label>
+			<label index="tx_ppwlunchmenu_config.show_uid.I.0">no</label>
+			<label index="tx_ppwlunchmenu_config.show_uid.I.1">yes</label>
+			<label index="tx_ppwlunchmenu_config.show_uid">Show the uid field in the food types overview?</label>
+			<label index="tx_ppwlunchmenu_config.show_root.I.0">no</label>
+			<label index="tx_ppwlunchmenu_config.show_root.I.1">yes</label>
+			<label index="tx_ppwlunchmenu_config.show_root">Show the root line in the food types overview?</label>
+			<label index="tx_ppwlunchmenu_config.show_date.I.0">no</label>
+			<label index="tx_ppwlunchmenu_config.show_date.I.1">yes</label>
+			<label index="tx_ppwlunchmenu_config.show_date">Show crdate in the food types overview?</label>
+			<label index="tx_ppwlunchmenu_types">Add a meal type</label>
+			<label index="tx_ppwlunchmenu_types.type_title">Title meal type</label>
+            <label index="tx_ppwlunchmenu_types.type_title_engl">English meal type title</label>
+			<label index="tx_ppwlunchmenu_types.stars">Select decoration</label>
+			<label index="tx_ppwlunchmenu_types.stars.I.0"></label>
+			<label index="tx_ppwlunchmenu_types.stars.I.1">1 Star</label>
+			<label index="tx_ppwlunchmenu_types.stars.I.2">2 Stars</label>
+			<label index="tx_ppwlunchmenu_types.stars.I.3">3 Stars</label>
+			<label index="tx_ppwlunchmenu_bill">New menu</label>
+			<label index="tx_ppwlunchmenu_bill.draft_title">Change title of meal type</label>
+			<label index="tx_ppwlunchmenu_bill.de_desc">Enter german description</label>
+			<label index="tx_ppwlunchmenu_bill.default_desc">Enter english description</label>
+			<label index="tx_ppwlunchmenu_bill.food_price">Price of menue</label>
+			<label index="tx_ppwlunchmenu_bill.draft_uid">UID of meal</label>
+			<label index="tx_ppwlunchmenu_bill.type_uid">Choose the menu type</label>
+			<label index="tx_ppwlunchmenu_bill.translated.I.0">no</label>
+			<label index="tx_ppwlunchmenu_bill.translated.I.1">yes</label>
+			<label index="tx_ppwlunchmenu_bill.translated">Already translated?</label>
+			<label index="tx_ppwlunchmenu_closed">Add new closing day</label>
+			<label index="tx_ppwlunchmenu_closed.date">Day that Casino is closed</label>
+			<label index="tx_ppwlunchmenu_closed.closing_cause">Select the closing cause</label>
+			<label index="tx_ppwlunchmenu_closing_types">Add a new closing type</label>
+			<label index="tx_ppwlunchmenu_closing_types.closing_title">Closing Cause</label>
+			<label index="tt_content.list_type_pi1">menu administration</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_ppwlunchmenu_fare">Eine neue Speisenvorlage hinzufügen</label>
+			<label index="tx_ppwlunchmenu_fare.fare_title">Geben Sie hier den Titel der Speisenvorlage ein</label>
+			<label index="tx_ppwlunchmenu_fare.fare_desc_german">Geben Sie hier die deutsche Beschreibung f&amp;uuml;r die Speisenvorlage hier ein</label>
+			<label index="tx_ppwlunchmenu_fare.fare_desc_english">Geben Sie hier die englische Beschreibung f&amp;uuml;r die Speisenvorlage hier ein</label>
+			<label index="tx_ppwlunchmenu_fare.fare_image">W&amp;auml;hlen Sie hier ein Bild f&amp;uuml;r die Speisenvorlage aus</label>
+			<label index="tx_ppwlunchmenu_fare.fare_translated">Wurde diese Speisenvorlage bereits &amp;uuml;bersetzt?</label>
+			<label index="tx_ppwlunchmenu_config">Neuen Konfigurationseintrag anlegen</label>
+			<label index="tx_ppwlunchmenu_config.config_title">Titel des Konfigurationseintrages</label>
+			<label index="tx_ppwlunchmenu_config.config_pid">Daten werden auf dieser Seite gespeichert</label>
+			<label index="tx_ppwlunchmenu_config.show_uid.I.0">nein</label>
+			<label index="tx_ppwlunchmenu_config.show_uid.I.1">ja</label>
+			<label index="tx_ppwlunchmenu_config.show_uid">DB-ID Feld in der &amp;Uuml;bersicht anzeigen?</label>
+			<label index="tx_ppwlunchmenu_config.show_root.I.0">nein</label>
+			<label index="tx_ppwlunchmenu_config.show_root.I.1">ja</label>
+			<label index="tx_ppwlunchmenu_config.show_root">Rootline in der &amp;Uuml;bersicht anzeigen?</label>
+			<label index="tx_ppwlunchmenu_config.show_date.I.0">nein</label>
+			<label index="tx_ppwlunchmenu_config.show_date.I.1">ja</label>
+			<label index="tx_ppwlunchmenu_config.show_date">Erstellungsdatum in der &amp;Uuml;bersicht anzeigen?</label>
+			<label index="tx_ppwlunchmenu_types">Neuen Speisetyp hinzufügen</label>
+			<label index="tx_ppwlunchmenu_types.type_title">Titel des Speisetyps</label>
+            <label index="tx_ppwlunchmenu_types.type_title_engl">Englischer Titel des Speisetyps</label>
+            <label index="tx_ppwlunchmenu_types.stars">Auszeichnung</label>
+			<label index="tx_ppwlunchmenu_types.stars.I.0"></label>
+			<label index="tx_ppwlunchmenu_types.stars.I.1">1 Stern</label>
+			<label index="tx_ppwlunchmenu_types.stars.I.2">2 Sterne</label>
+			<label index="tx_ppwlunchmenu_types.stars.I.3">3 Sterne</label>
+			<label index="tx_ppwlunchmenu_bill">Neuen Speiseplan anlegen</label>
+			<label index="tx_ppwlunchmenu_bill.draft_title">Ändern Sie hier den Titel der Speisenvorlage</label>
+			<label index="tx_ppwlunchmenu_bill.de_desc">Geben Sie hier die deutsche Beschreibung ein</label>
+			<label index="tx_ppwlunchmenu_bill.default_desc">Geben Sie hier die englische Beschreibung ein</label>
+			<label index="tx_ppwlunchmenu_bill.food_price">Preis des Men&amp;uuml;s</label>
+			<label index="tx_ppwlunchmenu_bill.draft_uid">UID der Speisenvorlage</label>
+			<label index="tx_ppwlunchmenu_bill.type_uid">W&amp;auml;hlen Sie hier den Men&amp;uuml;typ aus</label>
+			<label index="tx_ppwlunchmenu_bill.translated.I.0">nein</label>
+			<label index="tx_ppwlunchmenu_bill.translated.I.1">ja</label>
+			<label index="tx_ppwlunchmenu_bill.translated">Eintrag bereits &amp;uuml;bersetzt?</label>
+			<label index="tx_ppwlunchmenu_closed">Neuen Schlie&amp;szlig;tag anlegen</label>
+			<label index="tx_ppwlunchmenu_closed.date">Tag an dem nicht gekocht wird</label>
+			<label index="tx_ppwlunchmenu_closed.closing_cause">W&amp;auml;hlen Sie den Grund f&amp;uuml;r die Schlie&amp;szlig;ung aus</label>
+			<label index="tx_ppwlunchmenu_closing_types">Neuer Grund für Kantinenschließung</label>
+			<label index="tx_ppwlunchmenu_closing_types.closing_title">Grund f&amp;uuml;r die Schlie&amp;szlig;ung</label>
+			<label index="tt_content.list_type_pi1">Speiseplanverwaltung</label>
+		</languageKey>
+	</data>
+</T3locallang>

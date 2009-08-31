@@ -1,0 +1,15 @@
+plugin.tx_ppwlunchmenu {
+	
+	# cat=plugin.ppw_lunchmenu - general//; type=int; label=Image width: Max width for food images (set -1 to disable)
+	imageWidth = 120
+
+	# cat=plugin.ppw_lunchmenu - general//; type=string; label=Template Path: The path to the Template File
+	templateFile = typo3conf/ext/ppw_lunchmenu/res/template.html
+	
+	# cat=plugin.ppw_lunchmenu - general//; type=string; label=CSS Path: The path to the CSS File
+	cssFile = typo3conf/ext/ppw_lunchmenu/res/style.css
+    
+    # cat=plugin.ppw_lunchmenu - general//; type=string; label=Image Path: The path to the food images
+	imagePath = uploads/tx_ppwlunchmenu/
+	
+}

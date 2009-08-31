@@ -1,0 +1,12 @@
+
+plugin.tx_ppwlunchmenu_pi1 {
+	
+	thumbImage = IMAGE
+	thumbImage.file.maxW = {$plugin.tx_ppwlunchmenu.imageWidth}
+	
+	templateFile = {$plugin.tx_ppwlunchmenu.templateFile}
+	
+	cssFile = {$plugin.tx_ppwlunchmenu.cssFile}
+    
+    imagePath = {$plugin.tx_ppwlunchmenu.imagePath}
+}

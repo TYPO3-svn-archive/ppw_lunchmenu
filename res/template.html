@@ -1,0 +1,125 @@
+<!-- ###SINGLE_VIEW### begin -->
+<form method="post" action="###ACTION###" name="dateForm">
+<table width="782" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr><td>
+<table width="782" border="0" cellpadding="0" cellspacing="0" background="###IMAGE:PATH###besteck.gif">
+  <tr>
+  <th width="20" class="ppw-speiseplan-links">&nbsp;</th>
+	<th width="190" class="ppw-speiseplan-funktionen">###PREV_LINK###</th>
+	<th width="108" class="ppw-speiseplan-kalender">###CAL###</th>
+	<th width="310" class="ppw-speiseplan-funktionen"><a id="ppw-link" href="#" onclick="document.forms['dateForm'].submit();" title="###LLL:SUBMIT_TITLE###">###LLL:SUBMIT###</a> | ###WEEK_LINK### | ###PDF_LINK### ###LANGUAGE-KEY###</th>
+	<th width="134" class="ppw-speiseplan-funktionen-rechts">###FORWARD_LINK###</th>
+	<th width="20" class="ppw-speiseplan-rechts">&nbsp;</th>
+  </tr>
+</table>
+  </td></tr>
+</table>
+
+<div class="ppw-speiseplan-linie">&nbsp;</div>
+
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr><td class="ppw-speiseplan-aussen" >
+<table width="780" border="0" cellpadding="0" cellspacing="0" background="###IMAGE:PATH###besteck.gif">
+###ENTRY###
+
+</table>
+  </td></tr>
+</table>
+
+</form>
+<!-- ###SINGLE_VIEW### end -->
+
+
+
+<!-- ###WEEK_VIEW### begin -->
+  <table width="782" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+	  <td><table width="782" border="0" cellpadding="0" cellspacing="0" background="besteck.gif">
+		  <tr>
+			<th width="20" class="ppw-speiseplan-links">&nbsp;</th>
+			<th width="190" class="ppw-speiseplan-kopf">###LLL:WEEK###</th>
+			<th width="108" class="ppw-speiseplan-funktionen">&nbsp;</th>
+			<th width="147" class="ppw-speiseplan-funktionen">&nbsp;</th>
+			<th width="297" class="ppw-speiseplan-kopf-rechts">###LLL:PAGEHEADER###</th>
+			<th width="20" class="ppw-speiseplan-rechts">&nbsp;</th>
+		  </tr>
+	  </table></td>
+	</tr>
+  </table>
+  <div class="ppw-speiseplan-linie">&nbsp;</div>
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="782">
+	  <tr>
+		<td><table background="index.php-Dateien/besteck.gif" border="0" cellpadding="0" cellspacing="0" width="782">
+			<tbody>
+			  <tr>
+				<th width="20" class="ppw-speiseplan-funktionen">&nbsp;</th>
+				<th class="ppw-speiseplan-funktionen" width="190">###PREV_LINK###</th>
+				<th class="ppw-speiseplan-kalender" width="108">&nbsp;</th>
+				<th class="ppw-speiseplan-funktionen" width="310">###WEEK_LINK### | ###PDF_LINK### ###LANGUAGE-KEY###</th>
+				<th class="ppw-speiseplan-funktionen-rechts" width="134">###FORWARD_LINK###</th>
+				<th width="20" class="ppw-speiseplan-funktionen">&nbsp;</th>
+			  </tr>
+			</tbody>
+		</table></td>
+	  </tr>
+	
+  </table>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="780">
+<tr>
+<td class="ppw-speiseplan-aussen-woche">
+<table border="0" cellpadding="0" cellspacing="0" width="778">
+###ENTRY###
+</table>
+</td>
+</tr>
+</table>
+
+<!-- ###WEEK_VIEW### end -->
+
+
+
+<!-- ###PDF_WEEK_VIEW### beging -->
+<div id="ppw-pdfpage">
+	<div ###STYLE###><strong>###COMPANY###<br />###SITENAME###</strong></div><br /><br />
+	<table ###STYLE_TABLE###> 
+	<tr>
+		<td colspan="3">
+			<strong><u>###DAY_MON###</u></strong>
+		</td>	
+	</tr>
+	###MON_ENTRY###
+	<tr>
+		<td colspan="3">
+			<strong><u>###DAY_TUE###</u></strong>
+		</td>	
+	</tr>
+	###TUE_ENTRY###
+	<tr>
+		<td colspan="3">
+			<strong><u>###DAY_WED###</u></strong>
+		</td>	
+	</tr>
+	###WED_ENTRY###
+	</table>
+	<br /><br />
+	
+	<!--NewPage-->
+	<table ###STYLE_TABLE###>
+	<tr>
+		<td colspan="3">
+			<strong><u>###DAY_THU###</u></strong>
+		</td>	
+	</tr>
+	###THU_ENTRY###
+	<tr>
+		<td colspan="3">
+			<strong><u>###DAY_FRI###</u></strong>
+		</td>	
+	</tr>
+	###FRI_ENTRY###
+	</table>
+	<br /><br />
+	<div ###STYLE###><strong>###FOOTER###<br /><br /><br /><span id="ppw-pdfNotice">###NOTICE###</span></strong></div>	
+</div>	
+<!-- ###PDF_WEEK_VIEW### end -->

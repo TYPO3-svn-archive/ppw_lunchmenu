@@ -1,0 +1,39 @@
+a {
+	text-decoration:underline;
+
+}
+
+.tableHeader {
+	background:#6699CC;
+    color:#FFF;
+    font-size:11px
+}
+
+tr.tableContent td {
+    font-size:0.8em;
+}
+
+.formLabel {
+    padding-right:10px;
+    font-weight:bold;
+    font-size:12px
+}
+
+.formField {
+    padding:10px;
+}
+
+p.bodytext {
+    font-size:1.1em;
+}
+
+p.bodytext a{
+    font-size:1.3em;
+    text-decoration:underline;
+}
+
+p.successMessage {
+	font-size:1em;
+	font-weight:bold;
+    color:#03701F;
+}

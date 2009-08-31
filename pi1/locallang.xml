@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_ppwlunchmenu_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="error.noSelectedOption">You didn't choose any output options.</label>
+			<label index="error.noWeekPID">You didn't choose a page for the week's survey.</label>
+			<label index="error.noSinglePID">You didn't choose a page for the daily survey.</label>
+			<label index="error.noPdfPID">You didn't choose a page for the PDF output.</label>
+			
+			<label index="lll.beginPageHeader">Meal of day </label>
+			<label index="lll.selectDate">Choose a day </label>
+			<label index="lll.submitDate">&gt;&gt; switch</label>
+			<label index="lll.submitDateTitle">Switch to selected date</label>
+			<label index="lll.prevDay">&amp;laquo; Previous day</label>
+			<label index="lll.prevDayTitle">Click here to view the menu of the prvious week</label>
+			<label index="lll.forwardDay">Next day &amp;raquo;</label>
+			<label index="lll.forwardDayTitle">Click here to view the menu for the following day</label>
+			<label index="lll.weekLink">Week's survey</label>
+			<label index="lll.weekLinkTitle">Click here to view the menu for the week's survey (###ACT_WEEK###)</label>
+			<label index="lll.noEntry">You haven't entered a meal yet</label>
+			<label index="lll.language_de">German</label>
+			<label index="lll.language_default">English</label>
+			<label index="lll.languageTitle">swith to ###LANGUAGE###</label>
+			<label index="lll.closingDay">Closed</label>
+			
+			<label index="lll.singleLink">Day survey</label>
+			<label index="lll.singleLinkTitle">Click here to switch to day survey (###ACT_DAY###)</label>
+			<label index="lll.forwardWeek">Next week &amp;raquo;</label>
+			<label index="lll.forwardWeekTitle">Click here to view next week's survey</label>
+			<label index="lll.prevWeek">&amp;laquo; Previous week</label>
+			<label index="lll.prevWeekTitle">Click here to view the previous week's survey</label>
+			<label index="lll.weekPageheader">###MONDAY### - ###SUNDAY###</label>
+			<label index="lll.weekTableTH">Menu / Days </label>
+			<label index="lll.Week">Week's survey</label>
+			
+			
+			<label index="lll.PdfLinkTitle">Click here to view the menu as PDF</label>
+			<label index="lll.PdfLink">PDF</label>
+			<label index="lll.pdfName">Weekly menu</label>
+			<label index="lll.pdfCompany">Casino</label>
+			<label index="lll.PdfLinkDay">PDF</label>
+			<label index="lll.pdfFooter">Have a good meal!###BR###Your Casino team</label>
+			<label index="lll.pdfNotice">Subject to modification</label>
+			
+			<label index="day.Monday">Monday</label>
+			<label index="day.Tuesday">Tuesday</label>
+			<label index="day.Wednesday">Wednesday</label>
+			<label index="day.Thursday">Thursday</label>
+			<label index="day.Friday">Friday</label>
+			<label index="day.Saturday">Saturday</label>
+			<label index="day.Sunday">Sunday</label>
+			
+			<label index="month.Jan">January</label>
+			<label index="month.Feb">February</label>
+			<label index="month.Mar">March</label>
+			<label index="month.Apr">April</label>
+			<label index="month.May">May</label>
+			<label index="month.Jun">June</label>
+			<label index="month.Jul">July</label>
+			<label index="month.Aug">August</label>
+			<label index="month.Sep">September</label>
+			<label index="month.Oct">October</label>
+			<label index="month.Nov">November</label>
+			<label index="month.Dec">December</label>	
+		</languageKey>
+		
+		<languageKey index="de" type="array">
+			<label index="error.noSelectedOption">Keine Ausgabenoption f&amp;uuml;r diese Seite gew&amp;auml;hlt!</label>
+			<label index="error.noWeekPID">Es wurde keine Seite f&amp;uuml;r die Wochenansicht ausgew&amp;auml;lt!</label>
+			<label index="error.noSinglePID">Es wurde keine Seite f&amp;uuml;r die Tagesansicht ausgew&amp;auml;hlt!</label>
+			<label index="error.noPdfPID">Es wurde keine Seite f&amp;uuml;r die PDF Ansicht ausgew&amp;auml;hlt!</label>
+			
+			<label index="lll.beginPageHeader">Das Essen f&amp;uuml;r </label>
+			<label index="lll.selectDate">W&amp;auml;hlen Sie einen Tag aus: </label>
+			<label index="lll.submitDate">&gt;&gt; wechseln</label>
+            <label index="lll.submitDateTitle">Zum ausgew&amp;auml;hlten Tag wechseln</label>
+			<label index="lll.prevDay">&amp;laquo; Vorheriger Tag</label>
+			<label index="lll.prevDayTitle">Klicken Sie hier um sich den Speiseplan f&amp;uuml;r den vorherigen Tag anzeigen zu lassen</label>
+			<label index="lll.forwardDay">N&amp;auml;chster Tag &amp;raquo;</label>
+			<label index="lll.forwardDayTitle">Klicken Sie hier um sich den Speiseplan f&amp;uuml;r den n&amp;auml;chsten Tag anzeigen zu lassen</label>
+			<label index="lll.weekLink">aktuelle Woche</label>
+			<label index="lll.weekLinkTitle">Klicken Sie hier um in die Wochenansicht (###ACT_WEEK###) des Speiseplans zu wechseln</label>
+			<label index="lll.noEntry">Es wurde noch keine Speise eingetragen</label>
+			<label index="lll.language_de">Deutsch</label>
+			<label index="lll.language_default">Englisch</label>
+			<label index="lll.languageTitle">Zur Sprache ###LANGUAGE### wechseln</label>
+			<label index="lll.closingDay">An diesem Tag ist die Kantine geschlossen</label>
+			
+			<label index="lll.singleLink">aktueller Tag</label>
+			<label index="lll.singleLinkTitle">Klicken Sie hier um in die Tagesansicht (###ACT_DAY###) des Speiseplans zu wechseln</label>
+			<label index="lll.forwardWeek">N&amp;auml;chste Woche &amp;raquo;</label>
+			<label index="lll.forwardWeekTitle">Klicken Sie hier um sich den Speiseplan f&amp;uuml;r die n&amp;auml;chste Woche anzeigen zu lassen</label>
+			<label index="lll.prevWeek">&amp;laquo; Vorherige Woche</label>
+			<label index="lll.prevWeekTitle">Klicken Sie hier um sich den Speiseplan f&amp;uuml;r die vorherige Woche anzeigen zu lassen</label>
+			<label index="lll.weekPageheader">###MONDAY### - ###SUNDAY###</label>
+			<label index="lll.weekTableTH">Men&amp;uuml; / Tage </label>
+			<label index="lll.Week">Wochenansicht</label>
+			
+			<label index="lll.PdfLinkTitle">Klicken Sie hier um sich den Speiseplan als PDF ausgeben zu lassen</label>
+			<label index="lll.PdfLink">PDF</label>
+			<label index="lll.pdfName">Wochenspeiseplan</label>
+			<label index="lll.pdfCompany">Casino</label>
+			<label index="lll.PdfLinkDay">PDF</label>
+			<label index="lll.pdfFooter">Das Casinoteam w&amp;uuml;nscht Ihnen###BR###einen Guten Appetit!</label>
+			<label index="lll.pdfNotice">&amp;Auml;nderungen vorbehalten!</label>
+			
+			<label index="day.Monday">Montag</label>
+			<label index="day.Tuesday">Dienstag</label>
+			<label index="day.Wednesday">Mittwoch</label>
+			<label index="day.Thursday">Donnerstag</label>
+			<label index="day.Friday">Freitag</label>
+			<label index="day.Saturday">Samstag</label>
+			<label index="day.Sunday">Sonntag</label>
+			
+			<label index="month.Jan">Januar</label>
+			<label index="month.Feb">Februar</label>
+			<label index="month.Mar">M&amp;auml;rz</label>
+			<label index="month.Apr">April</label>
+			<label index="month.May">Mai</label>
+			<label index="month.Jun">Juni</label>
+			<label index="month.Jul">Juli</label>
+			<label index="month.Aug">August</label>
+			<label index="month.Sep">September</label>
+			<label index="month.Oct">Oktober</label>
+			<label index="month.Nov">November</label>
+			<label index="month.Dec">Dezember</label>
+		</languageKey>
+	</data>
+</T3locallang>
